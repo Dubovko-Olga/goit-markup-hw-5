@@ -507,6 +507,7 @@ text-align: center;
 justify-content: center;
 border: none;
 cursor: pointer;
+align-items: center;
 }
 .footer-form-icon{
   position: absolute;
@@ -582,18 +583,16 @@ padding-top: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover
+.modal-close:hover,
 .modal-close:focus{
   background-color: #404bbf;
   border: none;
+  fill: #fff;
 }
 .modal-close-icon{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-icon:focus
-.modal-close-icon:hover{
-   fill: #fff;
-}
+
 .modal-form-fierd {
   margin-bottom: 8px;
 
@@ -656,8 +655,7 @@ padding-top: 8px;
   resize: none;
   padding: 8px 16px;
 }
-.form-textarea:focus
-.form-textarea:hover{
+.form-textarea:focus {
   border-color: #4D5AE5;
 }
 .form-textarea::placeholder {
@@ -726,6 +724,6 @@ padding-top: 8px;
   display: flex;
   margin-bottom: 24px;
 }
-.check-element-icon{
-
+.modal-field{
+  margin-bottom: 16px;
 }
