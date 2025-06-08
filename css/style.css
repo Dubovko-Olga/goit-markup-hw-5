@@ -470,6 +470,7 @@ ol {
   letter-spacing: 0.02em;
   color: #fff; 
   margin-bottom: 16px;
+  margin-left: 80px;
 }
 
 .footer-form-input{
@@ -487,6 +488,7 @@ color: #fff;
 }
 
 .footer-form-btn{
+  position: relative;
   display: flex;
   border-radius: 4px;
 padding-top: 8px;
@@ -514,9 +516,7 @@ cursor: pointer;
   margin-left: 16px;
 
 }
-.footer-form-field{
-  position: relative;
-}
+
 .footer-form{
   display: flex;
   justify-content: center;
@@ -577,16 +577,25 @@ padding-top: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover
 .modal-close:focus{
   background-color: #404bbf;
-  fill: #fff;
   border: none;
 }
+.modal-close-icon{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-close-icon:focus
+.modal-close-icon:hover{
+   fill: #fff;
+}
 .modal-form-fierd {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 
 }
 
@@ -640,6 +649,7 @@ padding-top: 8px;
 
 .form-input-cover {
   position: relative;
+  margin-bottom: 16px;
 }
 .form-textarea {
   height: 120px;
@@ -675,7 +685,7 @@ padding-top: 8px;
   cursor: pointer;
   margin: 0 auto;
   padding: 0;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-field-title {
@@ -710,7 +720,7 @@ padding-top: 8px;
 .modal-check:checked + .modal-field-title .check-element {
   background-color: #404bbf;
   border: none;
-  fill: #fff;
+  fill:#F4F4FD;
 }
 .modal-field-check{
   display: flex;
