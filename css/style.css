@@ -694,7 +694,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 .modal-field-axent {
@@ -711,7 +711,6 @@ ol {
   border-radius: 2px;
   margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
