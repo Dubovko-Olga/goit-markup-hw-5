@@ -694,7 +694,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-block;
+  display: inline-flex;
 }
 .modal-field-axent {
   line-height: 1.33;
@@ -702,6 +702,7 @@ ol {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
   margin-left: 4px;
+
 }
 
 .check-element {
