@@ -435,6 +435,9 @@ ol {
   color: #fff;
   margin-bottom: 16px;
 }
+.footer-social-media{
+  margin-right: 80px;
+}
 
 .footer-icons {
   display: flex;
@@ -469,7 +472,6 @@ ol {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-  margin-left: 80px;
 }
 
 .footer-form-input {
@@ -522,7 +524,6 @@ ol {
   display: flex;
   justify-content: center;
   align-items: end;
-  margin-left: 80px;
   gap: 24px;
 }
 .footer-form-input::placeholder {
